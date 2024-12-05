@@ -6,12 +6,36 @@
     <title>Makeup Paradise - Contact Us & Newsletter</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="stylethebanner.css">
+    
     
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
+    <header class="banner">
+        <div class="logo-section">
+            <a href="basicstructure.html" class="logo-link">
+                <img src="logo.png" alt="Makeup Paradise Logo" class="logo">
+                <h1 class ="site-name">Makeup Paradise</h1>
+            </a>
+        </div>
+        <div class="nav-section">
+            <a href="#" class="community-link">Community</a>
+            <button id="sign-in-btn">Sign In</button>
+            <div class="icons">
+                <span class="icon cart-icon">
+                    🛒
+                    <span id="cart-count">0</span>
+                </span>
+                <span class="icon fav-icon">
+                    ❤️
+                    <span id="fav-count">0</span>
+                </span>
+            </div>
+        </div>
+    </header>
 <!-- Contact Us Section -->
 <div class="contact-us">
     <h2>Contact Us</h2>
@@ -47,5 +71,6 @@
 
 <script src="script.js"></script>
 <script src="contact.js"></script>
+<script src="functionality.js"></script>
 </body>
 </html>

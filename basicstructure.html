@@ -14,8 +14,10 @@
     <!-- Banner Section -->
     <header class="banner">
         <div class="logo-section">
-            <img src="logo.png" alt="Makeup Paradise Logo" class="logo">
-            <h1>Makeup Paradise</h1>
+            <a href="basicstructure.html" class="logo-link">
+                <img src="logo.png" alt="Makeup Paradise Logo" class="logo">
+                <h1 class ="sitename">Makeup Paradise</h1>
+            </a>
         </div>
         <div class="nav-section">
             <a href="#" class="community-link">Community</a>
@@ -33,17 +35,21 @@
         </div>
     </header>
 
+
     <!-- Main Content -->
     <main>
         <section>
             <h2>Welcome to Makeup Paradise!</h2>
             <p>Your one-stop shop for all things beauty and skincare.</p>
-        </section>
+            <!-- Button to navigate to products.html -->
+            <button onclick="window.location.href='products.html'" class="navbutton">View Products</button>
+            <b></b>
+            <button onclick="window.location.href='contact.html'" class="navbutton">Contact Us</button>
 
+
+        </section>
     </main>
 
-      
-    
     <!-- Chatbox Section -->
     <div id="chatbox">
         <div id="chatbox-header">
@@ -57,10 +63,8 @@
         <button id="send-message">Send</button>
     </div>
 
-  
     <script src="chatbox.js"></script>
-
     <script src="script.js"></script>
-    <script src = "functionality.js"></script>
+    <script src="functionality.js"></script>
 </body>
 </html>

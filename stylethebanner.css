@@ -77,3 +77,38 @@ body {
     padding: 3px 6px;
     border-radius: 50%;
 }
+
+
+.navbutton {
+    background-color: #ff69b4; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbutton:hover {
+    background-color: #ff1493; 
+}
+
+.sitename {
+    color: white; 
+    margin: 0; 
+    font-size: 24px; 
+}
+
+.logo-link {
+    text-decoration: none; 
+    color: inherit; 
+    display: flex; 
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px; 
+}
+
+
